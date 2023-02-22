@@ -1,2 +1,2 @@
-# ts-adv-samples
-Some TS samples based on research
+# ts-node-starter
+A simple template starter for nodejs with typescript
