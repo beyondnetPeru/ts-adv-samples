@@ -1,5 +1,5 @@
-function sealed(target) {
-  // do something with 'target' ...
+function sealed(construction: Function) {
+  console.log('Class is getting executed');
 }
 
 @sealed
@@ -9,4 +9,6 @@ export class Student {
   }
 }
 
-let student = new Student();
+export const Main = () => {
+  let student = new Student();
+};
