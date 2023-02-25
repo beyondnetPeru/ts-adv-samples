@@ -24,6 +24,11 @@ class Teacher {
   research(@parameterDecorator topic: string) {
     console.log('Researching ' + topic);
   }
+
+  @methodDecorator
+  salary(@parameterDecorator topic: string) {
+    console.log('Researching ' + topic);
+  }
 }
 
 export const Main = () => {
